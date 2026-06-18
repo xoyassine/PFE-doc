@@ -1,0 +1,43 @@
+/* Styles personnalisés pour la page d'accueil */
+body {
+  background-color: #f8f9fc;
+}
+
+.hero {
+  background: linear-gradient(135deg, #2c3e50, #1a2632);
+  color: white;
+  padding: 60px 0;
+  margin-bottom: 40px;
+  border-radius: 0 0 20px 20px;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.btn-custom {
+  border-radius: 30px;
+  padding: 8px 20px;
+}
+
+footer {
+  background-color: #e9ecef;
+  padding: 20px 0;
+  margin-top: 50px;
+  text-align: center;
+  color: #6c757d;
+}

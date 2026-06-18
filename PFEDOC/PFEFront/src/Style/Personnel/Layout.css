@@ -1,0 +1,29 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* La navbar est fixe en haut */
+.navbar-personnel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Le contenu principal est poussé vers le bas pour ne pas être caché par la navbar fixe */
+.layout-content {
+  margin-top: 70px;      /* Ajustez selon la hauteur réelle de votre navbar */
+  padding: 20px;
+  flex: 1;
+  background-color: #f4f7fc;
+}
+
+/* Responsive : si la navbar change de hauteur sur mobile */
+@media (max-width: 768px) {
+  .layout-content {
+    margin-top: 110px;
+  }
+}
